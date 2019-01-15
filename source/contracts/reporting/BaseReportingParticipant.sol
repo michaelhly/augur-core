@@ -1,9 +1,9 @@
 pragma solidity 0.4.24;
 
-import 'reporting/IReportingParticipant.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/IDisputeWindow.sol';
-import 'reporting/IReputationToken.sol';
+import './IReportingParticipant.sol';
+import './IMarket.sol';
+import './IDisputeWindow.sol';
+import './IReputationToken.sol';
 import 'Controlled.sol';
 
 

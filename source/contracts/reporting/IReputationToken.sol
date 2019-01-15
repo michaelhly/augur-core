@@ -2,7 +2,7 @@ pragma solidity 0.4.24;
 
 import 'libraries/ITyped.sol';
 import 'libraries/token/ERC20.sol';
-import 'reporting/IUniverse.sol';
+import './IUniverse.sol';
 
 
 contract IReputationToken is ITyped, ERC20 {

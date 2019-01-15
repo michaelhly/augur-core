@@ -1,11 +1,11 @@
 pragma solidity 0.4.24;
 
-import 'reporting/IDisputeCrowdsourcer.sol';
+import './IDisputeCrowdsourcer.sol';
 import 'libraries/token/VariableSupplyToken.sol';
-import 'reporting/BaseReportingParticipant.sol';
+import './BaseReportingParticipant.sol';
 import 'libraries/Initializable.sol';
 import 'Controlled.sol';
-import 'reporting/IUniverse.sol';
+import './IUniverse.sol';
 
 
 contract DisputeCrowdsourcer is Controlled, VariableSupplyToken, BaseReportingParticipant, IDisputeCrowdsourcer, Initializable {

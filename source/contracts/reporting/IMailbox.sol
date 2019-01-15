@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import 'reporting/IMarket.sol';
+import './IMarket.sol';
 
 
 contract IMailbox {

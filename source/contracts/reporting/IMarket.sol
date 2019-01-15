@@ -5,12 +5,12 @@ import 'libraries/ITyped.sol';
 import 'libraries/IOwnable.sol';
 import 'trading/ICash.sol';
 import 'trading/IShareToken.sol';
-import 'reporting/IUniverse.sol';
-import 'reporting/IDisputeWindow.sol';
+import './IUniverse.sol';
+import './IDisputeWindow.sol';
 import 'trading/IShareToken.sol';
-import 'reporting/IReportingParticipant.sol';
-import 'reporting/IV2ReputationToken.sol';
-import 'reporting/IMailbox.sol';
+import './IReportingParticipant.sol';
+import './IV2ReputationToken.sol';
+import './IMailbox.sol';
 
 
 contract IMarket is ITyped, IOwnable {

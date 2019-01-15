@@ -2,9 +2,9 @@ pragma solidity 0.4.24;
 
 import 'libraries/Initializable.sol';
 import 'Controlled.sol';
-import 'reporting/IInitialReporter.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/BaseReportingParticipant.sol';
+import './IInitialReporter.sol';
+import './IMarket.sol';
+import './BaseReportingParticipant.sol';
 import 'libraries/Ownable.sol';
 
 

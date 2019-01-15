@@ -4,8 +4,8 @@ import 'Controlled.sol';
 import 'libraries/Ownable.sol';
 import 'libraries/token/ERC20Basic.sol';
 import 'libraries/Initializable.sol';
-import 'reporting/IMailbox.sol';
-import 'reporting/IMarket.sol';
+import './IMailbox.sol';
+import './IMarket.sol';
 import 'trading/ICash.sol';
 
 

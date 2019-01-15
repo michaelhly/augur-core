@@ -3,17 +3,17 @@
 pragma solidity 0.4.24;
 
 
-import 'reporting/IDisputeWindow.sol';
+import './IDisputeWindow.sol';
 import 'Controlled.sol';
 import 'libraries/Initializable.sol';
-import 'reporting/IUniverse.sol';
-import 'reporting/IReputationToken.sol';
-import 'reporting/IMarket.sol';
+import './IUniverse.sol';
+import './IReputationToken.sol';
+import './IMarket.sol';
 import 'trading/ICash.sol';
 import 'factories/MarketFactory.sol';
-import 'reporting/Reporting.sol';
+import './Reporting.sol';
 import 'libraries/math/SafeMathUint256.sol';
-import 'reporting/IDisputeWindow.sol';
+import './IDisputeWindow.sol';
 
 
 contract DisputeWindow is Controlled, Initializable, IDisputeWindow {
