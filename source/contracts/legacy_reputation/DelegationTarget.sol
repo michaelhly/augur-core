@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
 
-import './Controlled.sol';
+import '../Controlled.sol';
 
 
 contract DelegationTarget is Controlled {

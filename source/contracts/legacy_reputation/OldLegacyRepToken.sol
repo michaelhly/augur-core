@@ -1,17 +1,17 @@
 pragma solidity 0.4.24;
 
 
-import 'reporting/IReputationToken.sol';
-import 'legacy_reputation/DelegationTarget.sol';
-import 'libraries/ITyped.sol';
-import 'libraries/Initializable.sol';
-import 'libraries/token/VariableSupplyToken.sol';
-import 'libraries/token/ERC20.sol';
-import 'reporting/IUniverse.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/Reporting.sol';
-import 'reporting/IDisputeCrowdsourcer.sol';
-import 'libraries/math/SafeMathUint256.sol';
+import '../reporting/IReputationToken.sol';
+import './DelegationTarget.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/Initializable.sol';
+import '../libraries/token/VariableSupplyToken.sol';
+import '../libraries/token/ERC20.sol';
+import '../reporting/IUniverse.sol';
+import '../reporting/IMarket.sol';
+import '../reporting/Reporting.sol';
+import '../reporting/IDisputeCrowdsourcer.sol';
+import '../libraries/math/SafeMathUint256.sol';
 
 
 contract OldLegacyReputationToken is DelegationTarget, ITyped, Initializable, VariableSupplyToken, IReputationToken {
