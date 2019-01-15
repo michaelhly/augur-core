@@ -4,7 +4,7 @@ import './IReportingParticipant.sol';
 import './IMarket.sol';
 import './IDisputeWindow.sol';
 import './IReputationToken.sol';
-import 'Controlled.sol';
+import '../Controlled.sol';
 
 
 contract BaseReportingParticipant is Controlled, IReportingParticipant {

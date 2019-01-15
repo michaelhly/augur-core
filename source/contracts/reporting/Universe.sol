@@ -2,20 +2,20 @@ pragma solidity 0.4.24;
 
 
 import './IUniverse.sol';
-import 'Controlled.sol';
-import 'libraries/ITyped.sol';
-import 'factories/IReputationTokenFactory.sol';
-import 'factories/DisputeWindowFactory.sol';
-import 'factories/MarketFactory.sol';
-import 'factories/IAuctionFactory.sol';
+import '../Controlled.sol';
+import '../libraries/ITyped.sol';
+import '../factories/IReputationTokenFactory.sol';
+import '../factories/DisputeWindowFactory.sol';
+import '../factories/MarketFactory.sol';
+import '../factories/IAuctionFactory.sol';
 import './IMarket.sol';
 import './IV2ReputationToken.sol';
 import './IAuction.sol';
 import './IDisputeWindow.sol';
 import './Reporting.sol';
 import './IRepPriceOracle.sol';
-import 'libraries/math/SafeMathUint256.sol';
-import 'IAugur.sol';
+import '../libraries/math/SafeMathUint256.sol';
+import '../IAugur.sol';
 
 
 contract Universe is Controlled, ITyped, IUniverse {

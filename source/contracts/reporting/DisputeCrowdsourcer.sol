@@ -1,10 +1,10 @@
 pragma solidity 0.4.24;
 
 import './IDisputeCrowdsourcer.sol';
-import 'libraries/token/VariableSupplyToken.sol';
+import '../libraries/token/VariableSupplyToken.sol';
 import './BaseReportingParticipant.sol';
-import 'libraries/Initializable.sol';
-import 'Controlled.sol';
+import '../libraries/Initializable.sol';
+import '../Controlled.sol';
 import './IUniverse.sol';
 
 

@@ -2,11 +2,11 @@ pragma solidity 0.4.24;
 
 import './IUniverse.sol';
 import './IAuctionToken.sol';
-import 'Controlled.sol';
-import 'libraries/token/VariableSupplyToken.sol';
-import 'libraries/ITyped.sol';
+import '../Controlled.sol';
+import '../libraries/token/VariableSupplyToken.sol';
+import '../libraries/ITyped.sol';
 import 'trading/ICash.sol';
-import 'libraries/Initializable.sol';
+import '../libraries/Initializable.sol';
 import './IAuction.sol';
 
 

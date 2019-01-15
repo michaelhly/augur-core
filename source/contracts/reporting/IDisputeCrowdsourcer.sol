@@ -2,7 +2,7 @@ pragma solidity 0.4.24;
 
 import './IReportingParticipant.sol';
 import './IDisputeWindow.sol';
-import 'libraries/token/ERC20.sol';
+import '../libraries/token/ERC20.sol';
 
 
 contract IDisputeCrowdsourcer is IReportingParticipant, ERC20 {

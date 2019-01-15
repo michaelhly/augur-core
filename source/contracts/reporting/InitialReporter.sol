@@ -1,11 +1,11 @@
 pragma solidity 0.4.24;
 
-import 'libraries/Initializable.sol';
-import 'Controlled.sol';
+import '../libraries/Initializable.sol';
+import '../Controlled.sol';
 import './IInitialReporter.sol';
 import './IMarket.sol';
 import './BaseReportingParticipant.sol';
-import 'libraries/Ownable.sol';
+import '../libraries/Ownable.sol';
 
 
 contract InitialReporter is Controlled, Ownable, BaseReportingParticipant, Initializable, IInitialReporter {

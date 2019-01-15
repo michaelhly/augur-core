@@ -1,9 +1,9 @@
 pragma solidity 0.4.24;
 
-import 'Controlled.sol';
-import 'libraries/Ownable.sol';
-import 'libraries/token/ERC20Basic.sol';
-import 'libraries/Initializable.sol';
+import '../Controlled.sol';
+import '../libraries/Ownable.sol';
+import '../libraries/token/ERC20Basic.sol';
+import '../libraries/Initializable.sol';
 import './IMailbox.sol';
 import './IMarket.sol';
 import 'trading/ICash.sol';

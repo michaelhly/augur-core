@@ -1,16 +1,16 @@
 pragma solidity 0.4.24;
 
-import 'Controlled.sol';
+import '../Controlled.sol';
 import './IAuction.sol';
 import './IUniverse.sol';
-import 'libraries/Initializable.sol';
+import '../libraries/Initializable.sol';
 import './IV2ReputationToken.sol';
 import './IReputationToken.sol';
-import 'libraries/math/SafeMathUint256.sol';
+import '../libraries/math/SafeMathUint256.sol';
 import './Reporting.sol';
 import 'trading/ICash.sol';
 import './IAuctionToken.sol';
-import 'factories/AuctionTokenFactory.sol';
+import '../factories/AuctionTokenFactory.sol';
 
 
 contract Auction is Controlled, Initializable, IAuction {

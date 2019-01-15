@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
 
-import 'libraries/ITyped.sol';
+import '../libraries/ITyped.sol';
 import './IUniverse.sol';
 import './IMarket.sol';
 import './IReputationToken.sol';

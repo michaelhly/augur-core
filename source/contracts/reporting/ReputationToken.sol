@@ -1,15 +1,15 @@
 pragma solidity 0.4.24;
 
 import './IV2ReputationToken.sol';
-import 'Controlled.sol';
-import 'libraries/ITyped.sol';
-import 'libraries/token/VariableSupplyToken.sol';
-import 'libraries/token/ERC20.sol';
+import '../Controlled.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/token/VariableSupplyToken.sol';
+import '../libraries/token/ERC20.sol';
 import './IUniverse.sol';
 import './IMarket.sol';
 import './Reporting.sol';
 import './IDisputeCrowdsourcer.sol';
-import 'libraries/math/SafeMathUint256.sol';
+import '../libraries/math/SafeMathUint256.sol';
 
 
 contract ReputationToken is Controlled, ITyped, VariableSupplyToken, IV2ReputationToken {

@@ -4,15 +4,15 @@ pragma solidity 0.4.24;
 
 
 import './IDisputeWindow.sol';
-import 'Controlled.sol';
-import 'libraries/Initializable.sol';
+import '../Controlled.sol';
+import '../libraries/Initializable.sol';
 import './IUniverse.sol';
 import './IReputationToken.sol';
 import './IMarket.sol';
 import 'trading/ICash.sol';
-import 'factories/MarketFactory.sol';
+import '../factories/MarketFactory.sol';
 import './Reporting.sol';
-import 'libraries/math/SafeMathUint256.sol';
+import '../libraries/math/SafeMathUint256.sol';
 import './IDisputeWindow.sol';
 
 

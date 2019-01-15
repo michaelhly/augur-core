@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
 
-import 'libraries/ITyped.sol';
-import 'libraries/IOwnable.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/IOwnable.sol';
 import 'trading/ICash.sol';
 import 'trading/IShareToken.sol';
 import './IUniverse.sol';
