@@ -5,7 +5,7 @@ import '../libraries/ITyped.sol';
 import './IUniverse.sol';
 import './IMarket.sol';
 import './IReputationToken.sol';
-import 'trading/ICash.sol';
+import '../trading/ICash.sol';
 
 
 contract IDisputeWindow is ITyped {

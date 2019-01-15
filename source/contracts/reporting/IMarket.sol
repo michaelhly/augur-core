@@ -3,11 +3,11 @@ pragma solidity 0.4.24;
 
 import '../libraries/ITyped.sol';
 import '../libraries/IOwnable.sol';
-import 'trading/ICash.sol';
-import 'trading/IShareToken.sol';
+import '../trading/ICash.sol';
+import '../trading/IShareToken.sol';
 import './IUniverse.sol';
 import './IDisputeWindow.sol';
-import 'trading/IShareToken.sol';
+import '../trading/IShareToken.sol';
 import './IReportingParticipant.sol';
 import './IV2ReputationToken.sol';
 import './IMailbox.sol';

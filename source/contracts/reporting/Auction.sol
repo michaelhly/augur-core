@@ -8,7 +8,7 @@ import './IV2ReputationToken.sol';
 import './IReputationToken.sol';
 import '../libraries/math/SafeMathUint256.sol';
 import './Reporting.sol';
-import 'trading/ICash.sol';
+import '../trading/ICash.sol';
 import './IAuctionToken.sol';
 import '../factories/AuctionTokenFactory.sol';
 

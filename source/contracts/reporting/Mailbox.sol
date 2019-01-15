@@ -6,7 +6,7 @@ import '../libraries/token/ERC20Basic.sol';
 import '../libraries/Initializable.sol';
 import './IMailbox.sol';
 import './IMarket.sol';
-import 'trading/ICash.sol';
+import '../trading/ICash.sol';
 
 
 contract Mailbox is Controlled, Ownable, Initializable, IMailbox {

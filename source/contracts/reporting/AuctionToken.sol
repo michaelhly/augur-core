@@ -5,7 +5,7 @@ import './IAuctionToken.sol';
 import '../Controlled.sol';
 import '../libraries/token/VariableSupplyToken.sol';
 import '../libraries/ITyped.sol';
-import 'trading/ICash.sol';
+import '../trading/ICash.sol';
 import '../libraries/Initializable.sol';
 import './IAuction.sol';
 

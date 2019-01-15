@@ -8,7 +8,7 @@ import './IMarket.sol';
 import './IDisputeWindow.sol';
 import './IReportingParticipant.sol';
 import './IAuction.sol';
-import 'trading/IShareToken.sol';
+import '../trading/IShareToken.sol';
 
 
 contract IUniverse is ITyped {

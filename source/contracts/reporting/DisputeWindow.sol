@@ -9,7 +9,7 @@ import '../libraries/Initializable.sol';
 import './IUniverse.sol';
 import './IReputationToken.sol';
 import './IMarket.sol';
-import 'trading/ICash.sol';
+import '../trading/ICash.sol';
 import '../factories/MarketFactory.sol';
 import './Reporting.sol';
 import '../libraries/math/SafeMathUint256.sol';
