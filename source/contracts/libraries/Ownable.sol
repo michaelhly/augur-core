@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
 
-import 'libraries/IOwnable.sol';
+import './IOwnable.sol';
 
 
 /**

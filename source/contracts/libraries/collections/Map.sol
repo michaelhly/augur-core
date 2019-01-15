@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
-import './Controlled.sol';
-import 'libraries/Ownable.sol';
-import 'libraries/Initializable.sol';
+import '../../Controlled.sol';
+import '../Ownable.sol';
+import '../Initializable.sol';
 
 
 // Provides a mapping that has a count and more control over the behavior of Key errors. Additionally allows for a clean way to clear an existing map by simply creating a new one on owning contracts.
