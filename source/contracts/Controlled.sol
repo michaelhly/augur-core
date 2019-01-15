@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
 
-import 'IControlled.sol';
-import 'IController.sol';
+import './IControlled.sol';
+import './IController.sol';
 import 'libraries/token/ERC20Basic.sol';
 
 

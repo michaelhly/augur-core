@@ -2,7 +2,7 @@ pragma solidity 0.4.24;
 
 import 'libraries/ContractExists.sol';
 import 'reporting/ReputationToken.sol';
-import 'IController.sol';
+import './IController.sol';
 import 'reporting/IUniverse.sol';
 
 

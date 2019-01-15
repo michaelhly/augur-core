@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
-import 'Controlled.sol';
-import 'IAugur.sol';
+import './Controlled.sol';
+import './IAugur.sol';
 import 'libraries/token/ERC20.sol';
 import 'factories/IUniverseFactory.sol';
 import 'reporting/IUniverse.sol';

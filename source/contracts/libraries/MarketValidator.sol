@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
 import 'reporting/IMarket.sol';
-import 'Controlled.sol';
+import './Controlled.sol';
 
 
 contract MarketValidator is Controlled {
