@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import 'IController.sol';
+import '../IController.sol';
 import './IUniverse.sol';
 import './IRepPriceOracle.sol';
 import './IAuctionToken.sol';
