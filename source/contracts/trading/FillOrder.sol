@@ -1,17 +1,17 @@
 pragma solidity 0.4.24;
 
 
-import 'trading/IFillOrder.sol';
-import 'Controlled.sol';
-import 'libraries/ReentrancyGuard.sol';
-import 'libraries/math/SafeMathUint256.sol';
-import 'reporting/IMarket.sol';
-import 'trading/ICash.sol';
-import 'trading/ICompleteSets.sol';
-import 'trading/IOrders.sol';
-import 'trading/IShareToken.sol';
-import 'trading/Order.sol';
-import 'libraries/CashAutoConverter.sol';
+import './IFillOrder.sol';
+import '../Controlled.sol';
+import '../libraries/ReentrancyGuard.sol';
+import '../libraries/math/SafeMathUint256.sol';
+import '../reporting/IMarket.sol';
+import './ICash.sol';
+import './ICompleteSets.sol';
+import './IOrders.sol';
+import './IShareToken.sol';
+import './Order.sol';
+import '../libraries/CashAutoConverter.sol';
 
 
 // CONSIDER: At some point it would probably be a good idea to shift much of the logic from trading contracts into extensions. In particular this means sorting for making and WCL calculcations + order walking for taking.

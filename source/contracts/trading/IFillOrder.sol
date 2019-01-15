@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
 
-import 'trading/Order.sol';
+import './Order.sol';
 
 
 contract IFillOrder {

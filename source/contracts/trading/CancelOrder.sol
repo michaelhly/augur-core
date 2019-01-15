@@ -5,14 +5,14 @@
 pragma solidity 0.4.24;
 
 
-import 'trading/ICancelOrder.sol';
-import 'Controlled.sol';
-import 'libraries/ReentrancyGuard.sol';
-import 'libraries/CashAutoConverter.sol';
-import 'trading/Order.sol';
-import 'reporting/IMarket.sol';
-import 'trading/ICash.sol';
-import 'trading/IOrders.sol';
+import './ICancelOrder.sol';
+import '../Controlled.sol';
+import '../libraries/ReentrancyGuard.sol';
+import '../libraries/CashAutoConverter.sol';
+import './Order.sol';
+import '../reporting/IMarket.sol';
+import './ICash.sol';
+import './IOrders.sol';
 
 
 /**

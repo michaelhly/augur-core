@@ -1,12 +1,12 @@
 pragma solidity 0.4.24;
 
 
-import 'trading/IShareToken.sol';
-import 'Controlled.sol';
-import 'libraries/token/VariableSupplyToken.sol';
-import 'libraries/ITyped.sol';
-import 'libraries/Initializable.sol';
-import 'reporting/IMarket.sol';
+import './IShareToken.sol';
+import '../Controlled.sol';
+import '../libraries/token/VariableSupplyToken.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/Initializable.sol';
+import '../reporting/IMarket.sol';
 
 
 contract ShareToken is Controlled, ITyped, Initializable, VariableSupplyToken, IShareToken {

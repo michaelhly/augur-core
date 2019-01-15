@@ -3,15 +3,15 @@
 pragma solidity 0.4.24;
 
 
-import 'Controlled.sol';
-import 'libraries/ReentrancyGuard.sol';
-import 'libraries/MarketValidator.sol';
-import 'trading/Order.sol';
-import 'reporting/IMarket.sol';
-import 'trading/ICreateOrder.sol';
-import 'trading/IOrders.sol';
-import 'trading/IFillOrder.sol';
-import 'libraries/CashAutoConverter.sol';
+import '../Controlled.sol';
+import '../libraries/ReentrancyGuard.sol';
+import '../libraries/MarketValidator.sol';
+import './Order.sol';
+import '../reporting/IMarket.sol';
+import './ICreateOrder.sol';
+import './IOrders.sol';
+import './IFillOrder.sol';
+import '../libraries/CashAutoConverter.sol';
 
 
 contract Trade is CashAutoConverter, ReentrancyGuard, MarketValidator {

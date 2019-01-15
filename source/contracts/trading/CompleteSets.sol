@@ -1,18 +1,18 @@
 pragma solidity 0.4.24;
 
 
-import 'trading/ICompleteSets.sol';
-import 'IAugur.sol';
-import 'Controlled.sol';
-import 'libraries/ReentrancyGuard.sol';
-import 'libraries/math/SafeMathUint256.sol';
-import 'libraries/MarketValidator.sol';
-import 'trading/ICash.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/IDisputeWindow.sol';
-import 'reporting/IAuction.sol';
-import 'trading/IOrders.sol';
-import 'libraries/CashAutoConverter.sol';
+import './ICompleteSets.sol';
+import '../IAugur.sol';
+import '../Controlled.sol';
+import '../libraries/ReentrancyGuard.sol';
+import '../libraries/math/SafeMathUint256.sol';
+import '../libraries/MarketValidator.sol';
+import './ICash.sol';
+import '../reporting/IMarket.sol';
+import '../reporting/IDisputeWindow.sol';
+import '../reporting/IAuction.sol';
+import './IOrders.sol';
+import '../libraries/CashAutoConverter.sol';
 
 
 contract CompleteSets is Controlled, CashAutoConverter, ReentrancyGuard, MarketValidator, ICompleteSets {

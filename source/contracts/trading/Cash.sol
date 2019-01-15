@@ -1,9 +1,9 @@
 pragma solidity 0.4.24;
 
-import 'trading/ICash.sol';
-import 'Controlled.sol';
-import 'libraries/ITyped.sol';
-import 'libraries/token/VariableSupplyToken.sol';
+import './ICash.sol';
+import '../Controlled.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/token/VariableSupplyToken.sol';
 
 
 /**

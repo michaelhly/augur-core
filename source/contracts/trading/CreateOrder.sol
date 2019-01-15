@@ -3,12 +3,12 @@
 pragma solidity 0.4.24;
 
 
-import 'Controlled.sol';
-import 'libraries/ReentrancyGuard.sol';
-import 'libraries/MarketValidator.sol';
-import 'trading/Order.sol';
-import 'trading/ICreateOrder.sol';
-import 'libraries/CashAutoConverter.sol';
+import '../Controlled.sol';
+import '../libraries/ReentrancyGuard.sol';
+import '../libraries/MarketValidator.sol';
+import './Order.sol';
+import './ICreateOrder.sol';
+import '../libraries/CashAutoConverter.sol';
 
 
 contract CreateOrder is CashAutoConverter, ReentrancyGuard, MarketValidator {

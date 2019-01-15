@@ -8,11 +8,11 @@
 pragma solidity 0.4.24;
 
 
-import 'IAugur.sol';
-import 'IController.sol';
-import 'libraries/math/SafeMathUint256.sol';
-import 'reporting/IMarket.sol';
-import 'trading/IOrders.sol';
+import '../IAugur.sol';
+import '../IController.sol';
+import '../libraries/math/SafeMathUint256.sol';
+import '../reporting/IMarket.sol';
+import './IOrders.sol';
 
 
 // CONSIDER: Is `price` the most appropriate name for the value being used? It does correspond 1:1 with the attoETH per share, but the range might be considered unusual?
