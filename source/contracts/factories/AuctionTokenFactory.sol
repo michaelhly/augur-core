@@ -1,11 +1,11 @@
 pragma solidity 0.4.24;
 
-import 'libraries/CloneFactory.sol';
-import 'IController.sol';
-import 'reporting/IAuction.sol';
-import 'reporting/IAuctionToken.sol';
-import 'libraries/token/ERC20.sol';
-import 'IControlled.sol';
+import '../libraries/CloneFactory.sol';
+import '../IController.sol';
+import '../reporting/IAuction.sol';
+import '../reporting/IAuctionToken.sol';
+import '../libraries/token/ERC20.sol';
+import '../IControlled.sol';
 
 
 contract AuctionTokenFactory is CloneFactory {

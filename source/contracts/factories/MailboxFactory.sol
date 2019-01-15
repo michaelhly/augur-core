@@ -1,10 +1,10 @@
 pragma solidity 0.4.24;
 
-import 'libraries/CloneFactory.sol';
-import 'IController.sol';
-import 'reporting/IMailbox.sol';
-import 'reporting/IMarket.sol';
-import 'IControlled.sol';
+import '../libraries/CloneFactory.sol';
+import '../IController.sol';
+import '../reporting/IMailbox.sol';
+import '../reporting/IMarket.sol';
+import '../IControlled.sol';
 
 
 contract MailboxFactory is CloneFactory {

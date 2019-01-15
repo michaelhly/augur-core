@@ -1,9 +1,9 @@
 pragma solidity 0.4.24;
 
 
-import 'IController.sol';
-import 'reporting/IUniverse.sol';
-import 'TestNetReputationToken.sol';
+import '../IController.sol';
+import '../reporting/IUniverse.sol';
+import '../trading/TestNetReputationToken.sol';
 
 
 contract TestNetReputationTokenFactory {

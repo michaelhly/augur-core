@@ -1,10 +1,10 @@
 pragma solidity 0.4.24;
 
-import 'libraries/CloneFactory.sol';
-import 'IController.sol';
-import 'reporting/IUniverse.sol';
-import 'reporting/IDisputeWindow.sol';
-import 'IControlled.sol';
+import '../libraries/CloneFactory.sol';
+import '../IController.sol';
+import '../reporting/IUniverse.sol';
+import '../reporting/IDisputeWindow.sol';
+import '../IControlled.sol';
 
 
 contract DisputeWindowFactory is CloneFactory {

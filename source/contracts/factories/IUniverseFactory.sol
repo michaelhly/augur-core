@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
-import 'IController.sol';
-import 'reporting/IUniverse.sol';
+import '../IController.sol';
+import '../reporting/IUniverse.sol';
 
 
 contract IUniverseFactory {

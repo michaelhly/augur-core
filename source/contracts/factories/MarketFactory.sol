@@ -1,12 +1,12 @@
 pragma solidity 0.4.24;
 
 
-import 'libraries/CloneFactory.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/IReputationToken.sol';
-import 'trading/ICash.sol';
-import 'IController.sol';
-import 'IControlled.sol';
+import '../libraries/CloneFactory.sol';
+import '../reporting/IMarket.sol';
+import '../reporting/IReputationToken.sol';
+import '../trading/ICash.sol';
+import '../IController.sol';
+import '../IControlled.sol';
 
 
 contract MarketFactory is CloneFactory {

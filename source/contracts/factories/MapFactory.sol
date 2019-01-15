@@ -1,9 +1,9 @@
 pragma solidity 0.4.24;
 
-import 'libraries/CloneFactory.sol';
-import 'IController.sol';
-import 'IControlled.sol';
-import 'libraries/collections/Map.sol';
+import '../libraries/CloneFactory.sol';
+import '../IController.sol';
+import '../IControlled.sol';
+import '../libraries/collections/Map.sol';
 
 
 contract MapFactory is CloneFactory {
