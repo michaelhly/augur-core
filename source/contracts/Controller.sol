@@ -8,7 +8,7 @@ pragma solidity 0.4.24;
 import './IAugur.sol';
 import './IController.sol';
 import './IControlled.sol';
-import 'libraries/token/ERC20Basic.sol';
+import './libraries/token/ERC20Basic.sol';
 import './ITime.sol';
 
 
