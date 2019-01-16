@@ -1,11 +1,11 @@
 pragma solidity 0.4.24;
 
 
-import 'libraries/Delegator.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/IReputationToken.sol';
-import 'trading/ICash.sol';
-import 'IController.sol';
+import '../libraries/Delegator.sol';
+import '../reporting/IMarket.sol';
+import '../reporting/IReputationToken.sol';
+import '../trading/ICash.sol';
+import '../IController.sol';
 
 
 contract MarketFactory {

@@ -1,10 +1,10 @@
 pragma solidity 0.4.24;
 
-import 'libraries/Delegator.sol';
-import 'IController.sol';
-import 'reporting/IAuction.sol';
-import 'reporting/IAuctionToken.sol';
-import 'libraries/token/ERC20.sol';
+import '../libraries/Delegator.sol';
+import '../IController.sol';
+import '../reporting/IAuction.sol';
+import '../reporting/IAuctionToken.sol';
+import '../libraries/token/ERC20.sol';
 
 
 contract AuctionTokenFactory {

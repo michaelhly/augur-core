@@ -1,9 +1,9 @@
 pragma solidity 0.4.24;
 
-import 'libraries/Delegator.sol';
-import 'reporting/IDisputeCrowdsourcer.sol';
-import 'reporting/IMarket.sol';
-import 'IController.sol';
+import '../libraries/Delegator.sol';
+import '../reporting/IDisputeCrowdsourcer.sol';
+import '../reporting/IMarket.sol';
+import '../IController.sol';
 
 
 contract DisputeCrowdsourcerFactory {

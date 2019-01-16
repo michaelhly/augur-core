@@ -1,9 +1,9 @@
 pragma solidity 0.4.24;
 
-import 'libraries/Delegator.sol';
-import 'IController.sol';
-import 'reporting/IMailbox.sol';
-import 'reporting/IMarket.sol';
+import '../libraries/Delegator.sol';
+import '../IController.sol';
+import '../reporting/IMailbox.sol';
+import '../reporting/IMarket.sol';
 
 
 contract MailboxFactory {
