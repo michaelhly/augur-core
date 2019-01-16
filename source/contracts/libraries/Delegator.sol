@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
 
-import 'IController.sol';
-import 'libraries/DelegationTarget.sol';
+import '../IController.sol';
+import './DelegationTarget.sol';
 
 
 contract Delegator is DelegationTarget {

@@ -1,9 +1,9 @@
 pragma solidity 0.4.24;
 
 
-import 'trading/ICash.sol';
-import 'Controlled.sol';
-import 'IAugur.sol';
+import '../trading/ICash.sol';
+import '../Controlled.sol';
+import '../IAugur.sol';
 
 
 /**

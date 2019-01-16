@@ -16,7 +16,7 @@ import './IDisputeWindow.sol';
 import './Reporting.sol';
 import './IRepPriceOracle.sol';
 import '../libraries/math/SafeMathUint256.sol';
-import 'IAugur.sol';
+import '../IAugur.sol';
 
 
 contract Universe is DelegationTarget, ITyped, Initializable, IUniverse {
