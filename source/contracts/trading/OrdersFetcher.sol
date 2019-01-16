@@ -5,11 +5,11 @@
 pragma solidity 0.4.24;
 
 
-import 'trading/IOrdersFetcher.sol';
-import 'Controlled.sol';
-import 'trading/Order.sol';
-import 'reporting/IMarket.sol';
-import 'trading/IOrders.sol';
+import './IOrdersFetcher.sol';
+import '../Controlled.sol';
+import './Order.sol';
+import '../reporting/IMarket.sol';
+import './IOrders.sol';
 
 
 /**

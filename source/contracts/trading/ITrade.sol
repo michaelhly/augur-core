@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
 
-import 'trading/Order.sol';
-import 'reporting/IMarket.sol';
+import './Order.sol';
+import '../reporting/IMarket.sol';
 
 
 contract ITrade {

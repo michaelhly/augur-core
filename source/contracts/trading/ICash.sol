@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
 
-import 'libraries/token/ERC20.sol';
+import '../libraries/token/ERC20.sol';
 
 
 contract ICash is ERC20 {
