@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import 'ITime.sol';
+import './ITime.sol';
 
 
 contract Time is ITime {

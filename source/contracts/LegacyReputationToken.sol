@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
-import 'libraries/ContractExists.sol';
-import 'legacy_reputation/OldLegacyRepToken.sol';
+import './libraries/ContractExists.sol';
+import './legacy_reputation/OldLegacyRepToken.sol';
 
 
 contract LegacyReputationToken is OldLegacyReputationToken {

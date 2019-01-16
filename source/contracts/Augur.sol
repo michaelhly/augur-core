@@ -1,21 +1,21 @@
 pragma solidity 0.4.24;
 
-import 'Controlled.sol';
-import 'IAugur.sol';
-import 'libraries/token/ERC20.sol';
-import 'factories/UniverseFactory.sol';
-import 'reporting/IUniverse.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/IDisputeWindow.sol';
-import 'reporting/IReputationToken.sol';
-import 'reporting/IReportingParticipant.sol';
-import 'reporting/IDisputeCrowdsourcer.sol';
-import 'reporting/IInitialReporter.sol';
-import 'reporting/IMailbox.sol';
-import 'trading/IShareToken.sol';
-import 'trading/Order.sol';
-import 'reporting/IAuction.sol';
-import 'reporting/IAuctionToken.sol';
+import './Controlled.sol';
+import './IAugur.sol';
+import './libraries/token/ERC20.sol';
+import './factories/UniverseFactory.sol';
+import './reporting/IUniverse.sol';
+import './reporting/IMarket.sol';
+import './reporting/IDisputeWindow.sol';
+import './reporting/IReputationToken.sol';
+import './reporting/IReportingParticipant.sol';
+import './reporting/IDisputeCrowdsourcer.sol';
+import './reporting/IInitialReporter.sol';
+import './reporting/IMailbox.sol';
+import './trading/IShareToken.sol';
+import './trading/Order.sol';
+import './reporting/IAuction.sol';
+import './reporting/IAuctionToken.sol';
 
 
 // Centralized approval authority and event emissions

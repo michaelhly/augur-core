@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
-import 'Controlled.sol';
-import 'libraries/Initializable.sol';
-import 'libraries/ITyped.sol';
+import './Controlled.sol';
+import './libraries/Initializable.sol';
+import './libraries/ITyped.sol';
 
 
 contract ITime is Controlled, ITyped {

@@ -1,7 +1,7 @@
 pragma solidity 0.4.24;
 
-import 'libraries/ContractExists.sol';
-import 'reporting/ReputationToken.sol';
+import './libraries/ContractExists.sol';
+import './reporting/ReputationToken.sol';
 
 
 contract TestNetReputationToken is ReputationToken {
