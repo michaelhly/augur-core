@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
-import 'libraries/ITyped.sol';
-import 'libraries/token/ERC20.sol';
-import 'reporting/IAuction.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/token/ERC20.sol';
+import './IAuction.sol';
 
 
 contract IAuctionToken is ITyped, ERC20 {

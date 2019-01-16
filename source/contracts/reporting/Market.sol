@@ -1,28 +1,28 @@
 pragma solidity 0.4.24;
 
-import 'reporting/IMarket.sol';
-import 'libraries/DelegationTarget.sol';
-import 'libraries/ITyped.sol';
-import 'libraries/Initializable.sol';
-import 'libraries/Ownable.sol';
-import 'libraries/collections/Map.sol';
-import 'reporting/IUniverse.sol';
-import 'reporting/IReportingParticipant.sol';
-import 'reporting/IDisputeCrowdsourcer.sol';
-import 'reporting/IReputationToken.sol';
-import 'factories/DisputeCrowdsourcerFactory.sol';
-import 'trading/ICash.sol';
-import 'trading/IShareToken.sol';
-import 'factories/ShareTokenFactory.sol';
-import 'factories/InitialReporterFactory.sol';
-import 'factories/MapFactory.sol';
-import 'libraries/token/ERC20Basic.sol';
-import 'libraries/math/SafeMathUint256.sol';
-import 'libraries/math/SafeMathInt256.sol';
-import 'factories/MailboxFactory.sol';
-import 'reporting/IMailbox.sol';
-import 'reporting/Reporting.sol';
-import 'reporting/IInitialReporter.sol';
+import './IMarket.sol';
+import '../libraries/DelegationTarget.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/Initializable.sol';
+import '../libraries/Ownable.sol';
+import '../libraries/collections/Map.sol';
+import './IUniverse.sol';
+import './IReportingParticipant.sol';
+import './IDisputeCrowdsourcer.sol';
+import './IReputationToken.sol';
+import '../factories/DisputeCrowdsourcerFactory.sol';
+import '../trading/ICash.sol';
+import '../trading/IShareToken.sol';
+import '../factories/ShareTokenFactory.sol';
+import '../factories/InitialReporterFactory.sol';
+import '../factories/MapFactory.sol';
+import '../libraries/token/ERC20Basic.sol';
+import '../libraries/math/SafeMathUint256.sol';
+import '../libraries/math/SafeMathInt256.sol';
+import '../factories/MailboxFactory.sol';
+import './IMailbox.sol';
+import './Reporting.sol';
+import './IInitialReporter.sol';
 
 
 contract Market is DelegationTarget, ITyped, Initializable, Ownable, IMarket {

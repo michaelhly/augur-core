@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
-import 'reporting/IUniverse.sol';
-import 'reporting/IRepPriceOracle.sol';
-import 'reporting/IAuctionToken.sol';
+import './IUniverse.sol';
+import './IRepPriceOracle.sol';
+import './IAuctionToken.sol';
 
 
 contract IAuction is IRepPriceOracle {

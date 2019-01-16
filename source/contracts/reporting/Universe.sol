@@ -1,21 +1,21 @@
 pragma solidity 0.4.24;
 
 
-import 'reporting/IUniverse.sol';
-import 'libraries/DelegationTarget.sol';
-import 'libraries/ITyped.sol';
-import 'libraries/Initializable.sol';
-import 'factories/ReputationTokenFactory.sol';
-import 'factories/DisputeWindowFactory.sol';
-import 'factories/MarketFactory.sol';
-import 'factories/AuctionFactory.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/IReputationToken.sol';
-import 'reporting/IAuction.sol';
-import 'reporting/IDisputeWindow.sol';
-import 'reporting/Reporting.sol';
-import 'reporting/IRepPriceOracle.sol';
-import 'libraries/math/SafeMathUint256.sol';
+import './IUniverse.sol';
+import '../libraries/DelegationTarget.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/Initializable.sol';
+import '../factories/ReputationTokenFactory.sol';
+import '../factories/DisputeWindowFactory.sol';
+import '../factories/MarketFactory.sol';
+import '../factories/AuctionFactory.sol';
+import './IMarket.sol';
+import './IReputationToken.sol';
+import './IAuction.sol';
+import './IDisputeWindow.sol';
+import './Reporting.sol';
+import './IRepPriceOracle.sol';
+import '../libraries/math/SafeMathUint256.sol';
 import 'IAugur.sol';
 
 

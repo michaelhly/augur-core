@@ -1,16 +1,16 @@
 pragma solidity 0.4.24;
 
-import 'reporting/IV2ReputationToken.sol';
-import 'libraries/DelegationTarget.sol';
-import 'libraries/ITyped.sol';
-import 'libraries/Initializable.sol';
-import 'libraries/token/VariableSupplyToken.sol';
-import 'libraries/token/ERC20.sol';
-import 'reporting/IUniverse.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/Reporting.sol';
-import 'reporting/IDisputeCrowdsourcer.sol';
-import 'libraries/math/SafeMathUint256.sol';
+import './IV2ReputationToken.sol';
+import '../libraries/DelegationTarget.sol';
+import '../libraries/ITyped.sol';
+import '../libraries/Initializable.sol';
+import '../libraries/token/VariableSupplyToken.sol';
+import '../libraries/token/ERC20.sol';
+import './IUniverse.sol';
+import './IMarket.sol';
+import './Reporting.sol';
+import './IDisputeCrowdsourcer.sol';
+import '../libraries/math/SafeMathUint256.sol';
 
 
 contract ReputationToken is DelegationTarget, ITyped, Initializable, VariableSupplyToken, IV2ReputationToken {

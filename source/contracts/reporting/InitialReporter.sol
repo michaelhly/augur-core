@@ -1,11 +1,11 @@
 pragma solidity 0.4.24;
 
-import 'libraries/Initializable.sol';
-import 'libraries/DelegationTarget.sol';
-import 'reporting/IInitialReporter.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/BaseReportingParticipant.sol';
-import 'libraries/Ownable.sol';
+import '../libraries/Initializable.sol';
+import '../libraries/DelegationTarget.sol';
+import './IInitialReporter.sol';
+import './IMarket.sol';
+import './BaseReportingParticipant.sol';
+import '../libraries/Ownable.sol';
 
 
 contract InitialReporter is DelegationTarget, Ownable, BaseReportingParticipant, Initializable, IInitialReporter {

@@ -1,16 +1,16 @@
 pragma solidity 0.4.24;
 
-import 'libraries/DelegationTarget.sol';
-import 'reporting/IAuction.sol';
-import 'libraries/Initializable.sol';
-import 'reporting/IUniverse.sol';
-import 'reporting/IV2ReputationToken.sol';
-import 'reporting/IReputationToken.sol';
-import 'libraries/math/SafeMathUint256.sol';
-import 'reporting/Reporting.sol';
-import 'trading/ICash.sol';
-import 'reporting/IAuctionToken.sol';
-import 'factories/AuctionTokenFactory.sol';
+import '../libraries/DelegationTarget.sol';
+import './IAuction.sol';
+import '../libraries/Initializable.sol';
+import './IUniverse.sol';
+import './IV2ReputationToken.sol';
+import './IReputationToken.sol';
+import '../libraries/math/SafeMathUint256.sol';
+import './Reporting.sol';
+import '../trading/ICash.sol';
+import './IAuctionToken.sol';
+import '../factories/AuctionTokenFactory.sol';
 
 
 contract Auction is DelegationTarget, Initializable, IAuction {

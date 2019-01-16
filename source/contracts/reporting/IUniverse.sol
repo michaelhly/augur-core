@@ -1,14 +1,14 @@
 pragma solidity 0.4.24;
 
 
-import 'libraries/ITyped.sol';
-import 'reporting/IReputationToken.sol';
-import 'reporting/IDisputeWindow.sol';
-import 'reporting/IMarket.sol';
-import 'reporting/IDisputeWindow.sol';
-import 'reporting/IReportingParticipant.sol';
-import 'reporting/IAuction.sol';
-import 'trading/IShareToken.sol';
+import '../libraries/ITyped.sol';
+import './IReputationToken.sol';
+import './IDisputeWindow.sol';
+import './IMarket.sol';
+import './IDisputeWindow.sol';
+import './IReportingParticipant.sol';
+import './IAuction.sol';
+import '../trading/IShareToken.sol';
 
 
 contract IUniverse is ITyped {
